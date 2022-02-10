@@ -1,0 +1,67 @@
+
+/*Se aplica la instrucción sobre todos los "li"*/
+
+li{
+    font-size: 20px;
+    font-family: "Verdana";
+}
+
+main{
+    background-color: rgb(255,0,0);
+}
+label{
+    font-size: 40px;
+}
+
+
+/*Aplicar estilos solo a una clase*/
+.form-input{
+    color: rgb(0, 119, 255);
+}
+
+/*Aplicar un estilo solo a un id*/
+#b{
+    border: 10px solid black;
+}
+
+/*aplicar el estilo a un agrupados específico que tenga una clase*/
+div.form-input{
+    border: 10px solid rgb(116, 45, 107);
+}
+
+/*Aplicar un estilo a toda la página*/
+*{
+    background-color:rgb(252, 252, 252);
+}
+
+
+/*Estilos más comunes*/
+
+div.form-input{
+    height: 10vh;
+    width: 100vw;
+
+    background-color: rgb(2, 255, 242);
+}
+
+#button-save{
+    padding: 2em; /*Es el contenido dentro del botón*/
+    margin: 4em; /*La distancia al siguiente al elemento siguiente y anterior*/
+
+
+    padding-top: 5em;
+    border: 10px dashed rgb(160, 160, 160);
+    background-color: rgb(0, 0, 0);
+    color:rgb(252, 252, 252);
+    border-radius: 25px;
+    text-align: left!important;
+}
+
+/*Hacer que desaparezca un input */
+table{
+    display: none;
+}
+
+
+
+
